@@ -68,7 +68,7 @@ function init() {
       if (err) 
       console.log(err)
       else 
-        console.log('file written');
+        console.log('README.md written successfully!');
     })
   })
 }

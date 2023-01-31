@@ -1,5 +1,5 @@
 # Title 
-  a
+  Ready README
 
   ## Table of Contents 
   - [Description](#description)
@@ -11,26 +11,24 @@
 - [Questions](#questions)
 
   ## Description 
-  a
+  A README generator for busy developers
 
   ## Installation
-  a
+  Clone the repo and open in your code editor. Make sure you have node.js and the inquirer npm installed.
 
   ## Usage
-  a
+  Answer the prompts in the terminal and sit back as the code creates a README for you.
 
   ## License
   This project uses MIT
-  
-
 
   ## Contributing
-  a
+  Clone the repo.
 
   ## Tests
-  a
+  None
 
   ## Questions
-  - Author: a
-  - GitHub: [a](https://github.com/a)
-  - Email: a
+  - Author: Stevie Miller
+  - GitHub: [StevieMiller](https://github.com/StevieMiller)
+  - Email: stevie@coolemailsite.com

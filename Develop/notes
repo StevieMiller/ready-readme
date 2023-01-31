@@ -1,0 +1,7 @@
+Need help with:
+
+- Adding link and badge for license - Why is the variable working in the render license function but not the switch statements?
+- 28-Stu-Mini-Project: Can you help me understand what's happening with this code? Esp. variables and parameters
+    Start with line 62 and the generateHTML(answers) function.
+- 12-Stu-Parameter-Check: process.argv <-- wtf is this??
+- 16-Stu-maths: What is happening on lines 8 and 9?
