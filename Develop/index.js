@@ -58,7 +58,7 @@ const questions = [
     choices: ['MIT', 'Mozilla', 'WTFPL', 'Unlicense', 'ISC']
   }];
 
-// init function writes information to README.md file
+// init function writes input to README.md file
 function init() {
   inquirer
   .prompt(questions)

@@ -1,4 +1,4 @@
-  # Title 
+# Title 
   Ready README
 
   ## Table of Contents 
@@ -11,22 +11,29 @@
   - [Questions](#questions)
 
   ## Description 
-  A README generator for busy developers
+  Ready README is a README generator created for busy developers.
 
   ## Installation
-  Clone the repo and open in your code editor. Make sure you have node.js and the inquirer npm installed.
+  Clone the repo and open it in your code editor. Make sure you have node.js and the inquirer npm installed.
 
   ## Usage
-  Answer the prompts in the terminal and sit back as the code creates a README for you.
+  Answer the prompts in the terminal and sit back as the app creates a README for you. Below is a screenshot illustrating how to use it. 
+
+  You can watch a video for a more detailed explanation here.
+  
+  ![Screenshot](Develop/images/screenshot.png)
 
   ## License
   This project uses MIT
+  [Click here to view license](https://opensource.org/licenses/MIT)
+  ![license: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+
 
   ## Contributing
-  Clone the repo.
+  Want to contribute? Clone the repo.
 
   ## Tests
-  None
+  N/A
 
   ## Questions
   - Author: Stevie Miller
