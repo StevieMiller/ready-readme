@@ -1,34 +1,37 @@
 # Title 
-  Ready README
+  a
 
   ## Table of Contents 
   - [Description](#description)
-- [License](#license)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [Tests](#test)
-- [Questions](#questions)
+  - [License](#license)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Contributing](#contributing)
+  - [Tests](#test)
+  - [Questions](#questions)
 
   ## Description 
-  A README generator for busy developers
+  a
 
   ## Installation
-  Clone the repo and open in your code editor. Make sure you have node.js and the inquirer npm installed.
+  a
 
   ## Usage
-  Answer the prompts in the terminal and sit back as the code creates a README for you.
+  a
 
   ## License
   This project uses MIT
+  [Click here to view license](https://opensource.org/licenses/MIT)
+  ![license: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+
 
   ## Contributing
-  Clone the repo.
+  a
 
   ## Tests
-  None
+  a
 
   ## Questions
-  - Author: Stevie Miller
-  - GitHub: [StevieMiller](https://github.com/StevieMiller)
-  - Email: stevie@coolemailsite.com
+  - Author: a
+  - GitHub: [a](https://github.com/a)
+  - Email: a

@@ -1,7 +1,7 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
-  switch (license[0]) {
+  switch (license) {
     case 'MIT':
       badge = `![license: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)`;
       break;
@@ -24,21 +24,21 @@ function renderLicenseBadge(license) {
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
-  switch (license[0]) {
+  switch (license) {
     case 'MIT':
-      link = `[$(license)](https://opensource.org/licenses/MIT)`;
+      link = `[Click here to view license](https://opensource.org/licenses/MIT)`;
       break;
     case 'MPL-2.0':
-      link = `[$(license)](https://opensource.org/licenses/MPL-2.0)`;
+      link = `[Click here to view license](https://opensource.org/licenses/MPL-2.0)`;
       break;
     case 'WTFPL':
-      link = `[$(license)](http://www.wtfpl.net/about/)`;
+      link = `[Click here to view license](http://www.wtfpl.net/about/)`;
       break;
     case 'Unlicense':
-      link = `[$(license)](http://unlicense.org/)`;
+      link = `[Click here to view license](http://unlicense.org/)`;
       break;
     case 'ISC':
-      link = `[$(license)](https://opensource.org/licenses/ISC)`;
+      link = `[Click here to view license](https://opensource.org/licenses/ISC)`;
       break;
       
       default:
@@ -59,17 +59,18 @@ return '';
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
+  console.log(data, 'data from generate markdown');
   return `# Title 
   ${data.title}
 
   ## Table of Contents 
   - [Description](#description)
-- [License](#license)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [Tests](#test)
-- [Questions](#questions)
+  - [License](#license)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Contributing](#contributing)
+  - [Tests](#test)
+  - [Questions](#questions)
 
   ## Description 
   ${data.description}
@@ -82,6 +83,9 @@ function generateMarkdown(data) {
 
   ## License
   ${renderLicenseSection(data.license)}
+  ${renderLicenseLink(data.license)}
+  ${renderLicenseBadge(data.license)}
+
 
   ## Contributing
   ${data.contributing}
@@ -96,3 +100,4 @@ function generateMarkdown(data) {
 }
 
 module.exports = generateMarkdown;
+
