@@ -19,7 +19,7 @@
   ## Usage
   Answer the prompts in the terminal and sit back as the app creates a README for you. Below is a screenshot illustrating how to use it. 
 
-  You can watch a video for a more detailed explanation here.
+  You can watch a video for a more detailed explanation [here](https://watch.screencastify.com/v/Iljlrkom6FWOduA4rYPt).
   
   ![Screenshot](Develop/images/screenshot.png)
 
